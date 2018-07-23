@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+Object {
+  "default": Object {
+    "clear": [Function],
+    "getItem": [Function],
+    "getJson": [Function],
+    "getJsonWithTtl": [Function],
+    "key": [Function],
+    "length": 0,
+    "name": "localStorage++",
+    "originalStorage": Object {},
+    "removeItem": [Function],
+    "setItem": [Function],
+    "setJson": [Function],
+    "setJsonWithTtl": [Function],
+    "support": true,
+  },
+  "localStorageSupport": true,
+  "sessionStorage": Object {
+    "clear": [Function],
+    "getItem": [Function],
+    "getJson": [Function],
+    "getJsonWithTtl": [Function],
+    "key": [Function],
+    "length": 0,
+    "name": "sessionStorage++",
+    "originalStorage": Object {},
+    "removeItem": [Function],
+    "setItem": [Function],
+    "setJson": [Function],
+    "setJsonWithTtl": [Function],
+    "support": true,
+  },
+  "sessionStorageSupport": true,
+  "storageSupport": true,
+}
+`;

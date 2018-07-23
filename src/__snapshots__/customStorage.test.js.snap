@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot BSStorage 1`] = `
+Object {
+  "clear": [Function],
+  "getItem": [Function],
+  "getJson": [Function],
+  "getJsonWithTtl": [Function],
+  "key": [Function],
+  "length": undefined,
+  "name": "BSs++",
+  "originalStorage": undefined,
+  "removeItem": [Function],
+  "setItem": [Function],
+  "setJson": [Function],
+  "setJsonWithTtl": [Function],
+  "support": false,
+}
+`;
+
+exports[`snapshot localStorage 1`] = `
+Object {
+  "clear": [Function],
+  "getItem": [Function],
+  "getJson": [Function],
+  "getJsonWithTtl": [Function],
+  "key": [Function],
+  "length": 0,
+  "name": "ls++",
+  "originalStorage": Object {},
+  "removeItem": [Function],
+  "setItem": [Function],
+  "setJson": [Function],
+  "setJsonWithTtl": [Function],
+  "support": true,
+}
+`;
+
+exports[`snapshot sessionStorage 1`] = `
+Object {
+  "clear": [Function],
+  "getItem": [Function],
+  "getJson": [Function],
+  "getJsonWithTtl": [Function],
+  "key": [Function],
+  "length": 0,
+  "name": "ss++",
+  "originalStorage": Object {},
+  "removeItem": [Function],
+  "setItem": [Function],
+  "setJson": [Function],
+  "setJsonWithTtl": [Function],
+  "support": true,
+}
+`;

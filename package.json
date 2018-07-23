@@ -1,0 +1,61 @@
+{
+  "name": "@tomekf/storage-ttl",
+  "version": "0.0.0",
+  "description": "Custom storage with JSON, TTL and protection against DOM exception when local storage is blocked",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "jest": {
+    "verbose": false,
+    "notify": false,
+    "roots": [
+      "<rootDir>/src/"
+    ]
+  },
+  "scripts": {
+    "start": "npm run build",
+    "prepare": "npm run build",
+    "build": "babel src --out-dir dist --source-maps --ignore test.js",
+    "test": "jest --verbose",
+    "test:update": "jest --verbose -u",
+    "test:watch": "jest --watch --verbose",
+    "test:watch:notify": "jest --watch --verbose --notify",
+    "eslint-src": "eslint src/**/*.js",
+    "eslint-src-show-files": "eslint src/**/*.js | grep \"src.*\\.js$\""
+  },
+  "repository": "tomek-f/storage-ttl",
+  "files": [
+    "dist",
+    "src",
+    "*.md",
+    "yarn.lock",
+    ".eslintignore",
+    ".eslintrc",
+    ".babelrc"
+  ],
+  "readmeFilename": "README.md",
+  "keywords": [
+    "number",
+    "utils"
+  ],
+  "author": "Tomek Fijoł <tomekfijol@gmail.com> (http://tomekf.pl/)",
+  "license": "MIT",
+  "dependencies": {
+    "@tomekf/hard-log": "^0.0.0",
+    "@tomekf/noop": "^0.0.1",
+    "@tomekf/number": "^0.0.0"
+  },
+  "devDependencies": {
+    "@tomekf/storage-mock": "^1.0.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-add-module-exports": "^0.3.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "13.0.0",
+    "eslint-plugin-babel": "5.1.0",
+    "eslint-plugin-import": "2.12.0",
+    "jest": "^23.4.1"
+  }
+}

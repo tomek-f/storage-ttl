@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`null snapshot 1`] = `"{\\"value\\":null,\\"expiresAt\\":1513977793823}"`;
+
+exports[`number snapshot 1`] = `"{\\"value\\":1,\\"expiresAt\\":1513977794823}"`;
+
+exports[`object snapshot 1`] = `"{\\"value\\":{\\"a\\":1},\\"expiresAt\\":1513977791823}"`;
+
+exports[`object snapshot minus ts 1`] = `"{\\"value\\":{\\"a\\":1},\\"expiresAt\\":1513977787823}"`;
+
+exports[`object snapshot no ttlInMilisec 1`] = `"{\\"value\\":{\\"a\\":1},\\"expiresAt\\":1513977789823}"`;
+
+exports[`string snapshot 1`] = `"{\\"value\\":\\"yolo\\",\\"expiresAt\\":1513977794823}"`;
+
+exports[`undefined snapshot 1`] = `"{\\"expiresAt\\":1513977792823}"`;
