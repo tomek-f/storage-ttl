@@ -11,7 +11,6 @@ const getJsonWithTtl = storage => name => {
   if (!tsOK) {
     return null; // pobieramy i kasujemy tylko jak poprawne dane
   }
-  console.log({ data, ts, f: Date.now() });
   if (data.expiresAt >= ts) {
     return data.value;
   }

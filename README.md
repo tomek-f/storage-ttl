@@ -1,4 +1,4 @@
-# t@tomekf/storage-ttl
+# @tomekf/storage-ttl
 
 > Custom storage with JSON, TTL and protection against DOM exception when local storage is blocked
 
