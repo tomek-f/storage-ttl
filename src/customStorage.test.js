@@ -1,5 +1,3 @@
-import '@tomekf/storage-mock/dist/auto';
-
 import customStorage from './customStorage';
 import getStorage from './getStorage';
 

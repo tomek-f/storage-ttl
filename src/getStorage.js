@@ -1,4 +1,4 @@
-import hardLog from '@tomekf/hard-log';
+const consoleError = console.error.bind(console);
 
 export default function getStorage(storageName = 'localStorage') {
   let storage;
@@ -6,7 +6,7 @@ export default function getStorage(storageName = 'localStorage') {
   try {
     storage = global[storageName];
   } catch (err) {
-    hardLog.warn('@tomekf/storage-tt: no localStorage', err);
+    consoleError('@tomekf/storage-tt: no localStorage', err);
   }
 
   return storage;

@@ -1,5 +1,3 @@
-import '@tomekf/storage-mock/dist/auto';
-
 import getStorage from './getStorage';
 
 test('localStorage ok', () => {
