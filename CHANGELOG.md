@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.3
+
+* Bumps mixin-deep from 1.3.1 to 1.3.2.
+
 ## 0.0.2
 
 * update deps
