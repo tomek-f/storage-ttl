@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.2
+
+* update deps
+* remove deps
+* small changes
+
 ## 0.0.1
 
 * readme
