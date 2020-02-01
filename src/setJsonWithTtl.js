@@ -1,4 +1,4 @@
-import isNumber from '@tomekf/number/dist/is';
+import isNumber from './isNumber';
 
 const { stringify: toJson } = JSON;
 

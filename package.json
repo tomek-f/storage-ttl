@@ -39,11 +39,7 @@
   ],
   "author": "Tomek Fijoł <tomekfijol@gmail.com> (http://tomekf.pl/)",
   "license": "MIT",
-  "dependencies": {
-    "@tomekf/hard-log": "^0.0.0",
-    "@tomekf/noop": "^0.0.1",
-    "@tomekf/number": "^0.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@tomekf/storage-mock": "^1.0.2",
     "babel-cli": "^6.26.0",

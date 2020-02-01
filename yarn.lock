@@ -92,18 +92,6 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@tomekf/hard-log@^0.0.0":
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/@tomekf/hard-log/-/hard-log-0.0.0.tgz#9e97be24027ade57ff551f564da0ba1d9cda5aa6"
-
-"@tomekf/noop@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@tomekf/noop/-/noop-0.0.1.tgz#921144aec5bcca6035a9f472ef48d7a82d47b7e4"
-
-"@tomekf/number@^0.0.0":
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/@tomekf/number/-/number-0.0.0.tgz#e8a99be4fa5be21d4a78321585e7964608c8414d"
-
 "@tomekf/storage-mock@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@tomekf/storage-mock/-/storage-mock-1.0.2.tgz#e245286688af00a84e9aff873e37eff079f20820"

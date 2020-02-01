@@ -4,3 +4,4 @@ dist/
 *.orig
 *.log
 *.tgz
+.vscode

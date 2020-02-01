@@ -1,8 +1,8 @@
-import noop from '@tomekf/noop';
-
 import setJsonWithTtl from './setJsonWithTtl';
 import getJsonWithTtl from './getJsonWithTtl';
 import getSupport from './getSupport';
+
+const noop = () => { /* nothing here */ };
 
 const { parse: fromJson, stringify: toJson } = JSON;
 
