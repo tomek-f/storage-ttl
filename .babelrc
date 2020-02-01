@@ -1,17 +1,5 @@
 {
   "presets": [
-    "env",
-    "stage-2"
-  ],
-  "plugins": [
-    "add-module-exports"
-  ],
-  "env": {
-    "test": {
-      "presets": [
-        "env",
-        "stage-2"
-      ]
-    }
-  }
+    "@babel/preset-env"
+  ]
 }

@@ -1,4 +1,3 @@
-import '@tomekf/storage-mock/dist/auto';
 import './__fixtures__/Date';
 
 import setJsonWithTtl from './setJsonWithTtl';
