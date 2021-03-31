@@ -19,8 +19,8 @@
     "test:update": "jest --verbose -u",
     "test:watch": "jest --watch --verbose",
     "test:watch:notify": "jest --watch --verbose --notify",
-    "eslint-src": "eslint src/**/*.js",
-    "eslint-src-show-files": "eslint src/**/*.js | grep \"src.*\\.js$\""
+    "eslint-src": "eslint ./src",
+    "eslint-src-show-files": "eslint ./src | grep \"src.*\\.js$\""
   },
   "repository": "tomek-f/storage-ttl",
   "files": [
@@ -44,10 +44,10 @@
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "babel-eslint": "^10.0.3",
-    "eslint": "6.1.0",
-    "eslint-config-airbnb-base": "13.0.0",
-    "eslint-plugin-babel": "5.1.0",
-    "eslint-plugin-import": "2.18.2",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.22.1",
     "jest": "^26.6.3"
   }
 }
