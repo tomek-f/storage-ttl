@@ -2,7 +2,7 @@
 
 ## 0.0.4
 
-* eslint update aand changes
+* eslint update and changes
 * jest update
 * Bump y18n from 4.0.0 to 4.0.1
 * Bump acorn from 6.4.0 to 6.4.1
