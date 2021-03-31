@@ -1,6 +1,6 @@
 # Changelog
 
-## x.x.x
+## 0.0.4
 
 * eslint update aand changes
 * jest update
