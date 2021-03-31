@@ -2,7 +2,10 @@
 
 ## x.x.x
 
+* other deps update
 * Bump y18n from 4.0.0 to 4.0.1
+* Bump acorn from 6.4.0 to 6.4.1
+* Bump lodash from 4.17.15 to 4.17.19
 
 ## 0.0.3
 
